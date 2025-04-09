@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #16133b;
+  color: #9b60cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 350px;
+  width: 100%;
+  padding: 1.5rem;
+  margin-block: auto;
+}
+
+.card {
+  background-color: #1d1a4d;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.img-wrapper {
+  margin-bottom: 0.625rem;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: #f5f5f5;
+}
+
+.location {
+  color: #bc5efa;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  margin-bottom: 1.875rem;
+}
+
+.personal-description {
+  font-size: 0.75rem;
+  margin-bottom: 1.5rem;
+  color: #f5f5f5;
+}
+
+.social-links-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-links-container a {
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #f5f5f5;
+  background-color: #27235f;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+.social-links-container a:hover, .social-links-container a:focus {
+  background-color: #18153a;
+}
+
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+  display: block;
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+.attribution a {
+  color: #9b60cc;
+  text-decoration: underline;
+}
+.attribution a:hover {
+  color: #bc5efa;
+}/*# sourceMappingURL=styles.css.map */
